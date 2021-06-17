@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone-style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        
+    </script>
+</head>
+<body>
+    
+    <nav id="top-nav" class="for-top-stick" style="   background-color:rgba(34, 33, 33, 1.0);">
+        <div class="center-box">
+            <ul id="primary-nav">
+                <li><a href="#"><i class="fas fa-store"></i></a></li>
+                <li><a onclick="account_dialog()">My Account</a></li>
+                <li><a onclick="login_dialog_WoM()">Login</a></li>
+                <li><a onclick="signup_dialog()">Register</a></li>
+                <li><a onclick="login_dialog(),chng_txt()">Wishlist</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        
+        <div class="center-box">
+            
+            <div id="main-header">
+
+                <h1>HARK's<br>Book Shop</h1>
+
+                <div id="search-box">
+                    <input type="text" placeholder="search">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav id="top-nav">
+        <div class="center-box">
+            <ul id="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#fiction-area">Fiction</a></li>
+                <li><a href="#novel-area">Novels</a></li>
+                <li><a href="#fantasy-area">Fantasy</a></li>
+                <li><a href="#historical-area">Historical</a></li>
+                <li><a href="#sale-area">Sale</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="sale-area" class="center-box main-container-0">
+        <h1>SALE</h1>
+        <div id="sale" class="main-container-1">
+
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 1.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The One Thing</span>
+                    <span id="price">Price : <b class="line-between">200Rs</b><b> 150Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fiction</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 2.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Book of Why</span>
+                    <span id="price">Price : <b class="line-between">230Rs</b><b> 180Rs</b></span>
+                    <span id="categorie">Categorie : <b>Novel</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 3.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Silent Patient</span>
+                    <span id="price">Price : <b class="line-between">250Rs</b><b> 200Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fantasy</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 5.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Intelligent Trap</span>
+                    <span id="price">Price :<b class="line-between">280Rs</b> <b> 250Rs</b></span>
+                    <span id="categorie">Categorie : <b>Historical</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="fiction-area" class="center-box main-container-0">
+        <h1>Fiction</h1>
+        <div class="main-container-1">
+
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 1.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The One Thing</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fiction</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 4.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Art of Thinking Clearly</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fiction</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="novel-area" class="center-box main-container-0">
+        <h1>Novels</h1>
+        <div class="main-container-1">
+
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 2.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Book of Why</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Novel</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 10.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">This is Going to Hurt</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Novel</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="fantasy-area" class="center-box main-container-0">
+        <h1>Fantasy</h1>
+        <div class="main-container-1">
+
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 3.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Silent Patient</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fantasy</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 8.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">Attitude is Everything</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Fantasy</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="historical-area" class="center-box main-container-0">
+        <h1>Historical</h1>
+        <div class="main-container-1">
+
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 9.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">Start With Why</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Historical</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+            <div id="product" class="pd">
+                <img id="product-image" src="images/books/Book 5.jpg" alt="book-image">
+                <div id="product-details">
+                    <span id="name">The Intelligent Trap</span>
+                    <span id="price">Price : <b>250 Rs</b></span>
+                    <span id="categorie">Categorie : <b>Historical</b></span>
+                    <span id="cart-link"><button type="button" onclick="login_dialog()">Add to cart</button></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <footer>
+
+        <div class="center-box">
+
+            <!-- footer -->
+
+            <div class="footer-container">
+
+                <div id="column1">
+                    <h1>HARK's<br>Book Shop</h1>
+                </div>
+                <div id="column2">
+                    <p>Copyright &copy; 2021 HARK's Book Shop.</p>
+                </div>
+                <div id="column3">
+                    <a href="#"><p>Legal Stuff</p></a>
+                    <p>|</p>
+                    <a href="#"><p>Privacy Policy</p></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <div id="login-dialog" >
+
+        <!-- login dialog -->
+        <p id="for-message"></p>
+        <div id="login-dialog-child">
+            <i id="dialog-close-btn" onclick="login_dialog_cancel()" class="fa fa-window-close" aria-hidden="true" style="font-size:30px"></i>
+            <h1>Login</h1>
+            <form id="login-form" action="#">
+                <input type="email" placeholder="Enter Email or Username" required> 
+                <input type="password" placeholder="Enter Password" required>
+                <input id="submit-btn" type="submit" value="Login">
+                <button onclick="signup_with_dialog()">Create Account?</button>
+            </form>
+        </div>
+
+        <div id="signup-dialog-child">
+            <i id="dialog-close-btn" onclick="login_dialog_cancel()" class="fa fa-window-close" aria-hidden="true" style="font-size:30px"></i>
+            <h1>Create Account</h1>
+            <form id="signup-form" action="#">
+                <input type="text" placeholder="Enter Fullname" required> 
+                <input type="email" placeholder="Enter Email or Username" required> 
+                <input type="password" placeholder="Enter Password" required>
+                <input type="password" placeholder="Enter Confirm Password" required>
+                <input id="submit-btn" type="submit" value="Create Account">
+                <button onclick="login_with_dialog()">Login?</button>
+            </form>
+        </div>
+
+        <div id="account-dialog-child">
+            <i id="dialog-close-btn" onclick="login_dialog_cancel()" class="fa fa-window-close" aria-hidden="true" style="font-size:30px"></i>
+            <h1>My Account</h1>
+            <form id="account-form" action="#">
+                <input id="login-btn" class="btn-custom" type="button" onclick="login_with_dialog()" value="Login">
+                <input id="create-account-btn" class="btn-custom" type="button" onclick="signup_with_dialog()" value="Create Account">
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

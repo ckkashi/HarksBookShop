@@ -1,0 +1,138 @@
+@media only screen and (min-width:950px) and (max-width:1250px){
+    #dialog-close-btn{
+        position: relative;
+        left:46vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:950px){
+
+    .center-box{
+        width:100%;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+    #main-header{
+        flex-direction: column;
+    }
+    #main-header h1{
+        width:100%;
+    }
+    #search-box{
+        top:0px;
+        left:0px;
+        width:100%;
+    }
+    #search-box input{
+        width:92%;
+    }
+    div#product{
+        width:100%;
+    }
+    div.footer-container{
+        flex-direction: column;
+    }
+    div#login-dialog-child,div#signup-dialog-child,div#account-dialog-child{
+        /* margin:5px; */
+        width:100vw;
+        /* box-sizing: content-box; */
+        border-radius: 0px;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:88vw;
+    }
+    #login-form,#signup-form,#account-form{
+        width:98%;
+    }
+
+}
+
+@media only screen and (min-width:760px) and (max-width:950px){
+    #dialog-close-btn{
+        position: relative;
+        left:95vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:760px){
+    
+    #search-box input{
+        width:90%;
+    }
+    ul#main-nav li{
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+    }
+    ul#main-nav a{
+        font-size: 1.8em;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:94vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+
+/* for some repeatation of width  */
+@media only screen and (min-width:430px) and (max-width:550px){
+    
+    #search-box input{
+        width:87%;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:90vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:370px) and (max-width:430px){
+    
+    #search-box input{
+        width:85%;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:88vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:270px) and (max-width:370px){
+    
+    #search-box input{
+        width:80%;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:86vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:270px){
+    
+    #search-box input{
+        width:77%;
+    }
+    #dialog-close-btn{
+        position: relative;
+        left:88vw;
+    }
+    ul#primary-nav{
+        justify-content: center;
+    }
+}
